@@ -335,7 +335,6 @@ public class ButtonListener implements Listener {
 		if (ba != null) {
 			if (ButtonPromote.permissions.has(p, "ButtonPromote.remove")) {
 				ButtonPromote.buttonRemoval.put(p.getName(), p.getLocation());
-				p.sendMessage("This button has features tied to it, to remove type /bp confirm or replace the button to keep.");
 			}
 		}
 	}
